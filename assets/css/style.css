@@ -178,7 +178,7 @@ blockquote {
 .memos__content:before {
     content: '';
     position: absolute;
-    background: url('/assets/img/avatar.jpg') no-repeat;
+    background: url('https://blog.thinkin.top/upload/top/%E4%B8%8B%E8%BD%BD%20(3).png') no-repeat;
     background-size: contain;
     width: 40px;
     height: 40px;
