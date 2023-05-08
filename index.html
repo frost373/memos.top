@@ -31,14 +31,7 @@
     </header>
 
     <section id="main" class="container">
-        <h1>Memos Top</h1>
-
-        <blockquote>
-            <p>Je <del>memos</del>, donc je suis - <em>René Descartes fans</em></p>
-        </blockquote>
-
         <div class="total">Total <span id="total">0</span> Memos 🎉</div>
-
         <blockquote id="tag-filter" class="filter">
             <div id="tags"></div>
         </blockquote>
@@ -57,7 +50,7 @@
     <script type="text/javascript">
         var memos = {
             host: 'https://mos.thinkin.top/',  // Your Memos, with '/' end.
-            limit: '10',  // Pagination to show.
+            limit: '20',  // Pagination to show.
             creatorId: '1',  // The old instance is 101, and the new instance is 1. 
             domId: '#memos',  // Default #memos.
             username: 'memos',  // You can customize the display ID that is not related to memos.
